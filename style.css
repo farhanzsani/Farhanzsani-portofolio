@@ -18,7 +18,6 @@ nav{
     background-color: #000;
     margin-top: 20px;
     margin-left: 50%;
-    transform: translateX(-50%);
     border-radius: 50px;
     padding: 0.8rem 2rem;
     align-items: center;
@@ -27,7 +26,7 @@ nav{
     box-shadow: 0 5px 20px rgb(0, 0, 0,0.5);
     z-index: 10;
     position: fixed;
-     transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
     opacity: 1;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 10;
@@ -278,7 +277,7 @@ nav ul{
     padding: 10px 15px;
     transform-origin: left top;
     font-weight: bold;
-    font-size: 20;
+    font-size: 20px;
     color: #000;
     letter-spacing: 2px;
 }
@@ -311,7 +310,7 @@ nav ul{
   padding: 25px 15px;
   background-color: #334342a2;
   border-radius: 12px;
-  box-shadow: 0 4px A12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   border: 1px solid #22c55e;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-height: 120px;
@@ -365,7 +364,7 @@ nav ul{
 
 .project-card {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 20px;
   width: 80%;
   justify-content: center;
@@ -430,10 +429,10 @@ nav ul{
 }
 
 .contact-section {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #000;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
@@ -461,6 +460,16 @@ nav ul{
     width: 80%;
 }
 
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 100px;
+}
+
+.contact-title p{
+    text-align:left;
+}
 .contact-form{
     display: flex;
     justify-content: center;
@@ -479,6 +488,7 @@ nav ul{
     width:80%;
     height: auto;
     justify-content: center;
+    margin-right: 100px;
     /* background-color: tomato; */
 }
 
@@ -506,7 +516,7 @@ nav ul{
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width:103%;
+    width:103.5%;
 } 
 
 .form button:hover {
