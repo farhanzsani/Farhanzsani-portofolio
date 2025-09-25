@@ -476,7 +476,6 @@ nav ul{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    /* background-color: tomato; */
     
 }
 
@@ -547,5 +546,7 @@ nav ul{
     width: 100%;
     background-color: #000;
 }
+
+
 
 
