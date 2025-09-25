@@ -1,7 +1,7 @@
 # Website Portofolio - Farhanzsani
 
 
-**➡️ Lihat Langsung:** [farhanzsani.vercel.app]
+**➡️ Lihat Langsung:** [farhanzsani](farhanzsani.vercel.app)
 
 ---
 
